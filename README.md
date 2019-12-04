@@ -23,15 +23,29 @@ Es por esto, que creamos una página web que almacena los datos más importantes
 
 Para definir a nuestro usuario final, decidimos realizar una encuesta utilizando Form de Google. Para ello, redactamos 7 preguntas y la realizamos en un universo de 22 personas. A continuación se mostrarán las preguntas y gráficos obtenidos; además de las apreciaciones que tuvimos como dupla y conclusión:
 
+![alt text](Images/Pregunta1.png)
+
+![alt text](Images/Pregunta2.png)
+•	La mayoría de los encuestados tienes entre 30 a 35 años.
+
+![alt text](Images/Pregunta3.png)
+•	Más del 68% dice jugar juegos de rol.
+
+![alt text](Images/Pregunta4.png)
+•	Todos los encuestados dicen conocer los juegos mencionados. 
+
+![alt text](Images/Pregunta5.png)
+•	A partir de esta pregunta, pudimos escoger qué juego utilizaríamos para el proyecto. En este caso fue League of Legends, ya que el preferido de los encuestados fue este.
+
+![alt text](Images/Pregunta6.png)
+•	A pesar de que todos conocen los juegos, es relevante que más del 27% responde no jugar ninguno.
+
+![alt text](Images/Pregunta7.png)
+•	Esta pregunta también es de importancia, ya que nos indica que nuestro usuario final será principiante a medio. Por ende nuestro proyecto está dirigido a estos.
+
 ## 3. Testeo de usabilidad
 
 
-### HTML y CSS
-
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
