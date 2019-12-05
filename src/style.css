@@ -75,14 +75,14 @@ section#home{
 
 }
 
-/*--------------------------Vista de Campeones------------------------*/
+/*--------------------------Nav------------------------*/
 
 section#champions{
     display: flex;
     justify-content: center;
     margin: auto;
     width: 73%;
-    /*display: none;*/
+    display: none;
 }
 
 .classSelect{
@@ -119,6 +119,7 @@ section#champions{
     outline: none;
 }
 
+/*--------------------------Vista de Campeones-----------------------*/
 
 .championBox{
     width: 220px;
