@@ -1,13 +1,13 @@
-//  import LoL from './data/lol/lol.js'
+import LoL from './data/lol/lol.js';
+import { showChampion } from './data.js';
 
-import { example } from './data.js';
-
-// console.log(example);
+showChampion(dataLol);
+console.log(LoL);
 
 const home = document.getElementById('home');
-const homeButton = document.getElementById('homeButton')
+const homeButton = document.getElementById('homeButton');
 const champions = document.getElementById('champions');
-const championsButton = document.getElementById('championsButton')
+const championsButton = document.getElementById('championsButton');
 
 function setView(e) {
   if (e.target.id === 'championsButton') {
