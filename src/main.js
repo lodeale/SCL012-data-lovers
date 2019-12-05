@@ -1,10 +1,9 @@
-//  import LoL from './data/lol/lol.js'
+import dataLol from './data/lol/lol.js'
+import { showChampion } from './data.js';
 
-import { example } from './data.js';
+showChampion(dataLol);
 
-// console.log(example);
-
-const home = document.getElementById('home');
+/* const home = document.getElementById('home');
 const homeButton = document.getElementById('homeButton')
 const champions = document.getElementById('champions');
 const championsButton = document.getElementById('championsButton')
@@ -29,4 +28,4 @@ function setView(e) {
 }
 
 homeButton.addEventListener('click', setView);
-championsButton.addEventListener('click', setView);
+championsButton.addEventListener('click', setView); */

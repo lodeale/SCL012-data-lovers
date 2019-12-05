@@ -5,14 +5,27 @@
 }
 
 body{
+    display:flex;
     background-image: url(../Images/backgroundLoL.png);
-    background-position: center;
-    background-size: cover;
+    justify-content: center;
+    background-size: 100% 100%;
     background-attachment: fixed;
     font-family: 'Abhaya Libre', serif;
-
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height:150px;
+    margin: auto;
+    background-image: url(../Images/headerLol.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/*
 .center {
     display: block;
     margin-left: auto;
@@ -26,7 +39,7 @@ body{
     background: transparent url(../Images/headerLol.png) no-repeat 50% 0;
     background-size: contain;
 }
-
+*/
 .row{
     display: flex;
 }
@@ -150,4 +163,18 @@ body{
     #image-header{
         width: 200px;
     }
+}
+
+/*------------------Todos los campeones-------------------*/
+.allChamp {
+    display:flex;   
+}
+.champ{
+    display:flex;
+    flex-wrap: wrap;
+    width: 23%;
+    height: 220px;
+    background: #080808;
+    border: 2px solid #AE8537;
+    box-sizing: border-box;
 }
