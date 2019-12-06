@@ -29,6 +29,7 @@ nav{
     margin:auto;
     width: 100%;
 }
+
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -122,17 +123,20 @@ section#champions{
 /*--------------------------Vista de Campeones-----------------------*/
 
 .championBox{
-    width: 220px;
-    height: 220px;
+    width: 210px;
+    height: 210px;
     background: #080808;
     border: 2px solid #AE8537;
     box-sizing: border-box;
+    margin: 0.2em;
+    margin-top: 25px;
 }
 
 .imgRedonda {
     width:80px;
     height:80px;
     border-radius:150px;
+    margin-top: 1em;
 
 }
 
@@ -141,22 +145,21 @@ section#champions{
     border: 0;
 }
 
+.name-title{
+    height: 30px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100px;
+    color: #AE8537;
+    text-align: center;
+    margin: 0;
+
+}
+
 @media only screen and (max-width: 600px) {
     #image-header{
         width: 200px;
     }
-}
-
-/*------------------Todos los campeones-------------------*/
-.allChamp {
-    display:flex;   
-}
-.champ{
-    display:flex;
-    flex-wrap: wrap;
-    width: 23%;
-    height: 220px;
-    background: #080808;
-    border: 2px solid #AE8537;
-    box-sizing: border-box;
 }
