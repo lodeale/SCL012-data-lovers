@@ -1,17 +1,11 @@
-/* Manejo de data */
+import LoL from './data/lol/lol.js';
+export const showChampion = (filter) => {
+  const champions = []
+  Object.keys(LoL.data).forEach( (item) => {
+    if(LoL.data[item].tags.some(tag => tag === filter) || filter === ''){
 
-// esta es una función de ejemplo
-
-export const example = () => {
-  return 'example';
-};
-
-
-export const showChampion = (contentLol) => {
-  const champions = contentLol.data;
-  Object.keys(champions).forEach( (item) => {
-    console.log(item); // key
-    console.log(champions[item]); // value
+      champions.push(LoL.data[item]);
+    }
   });
-
+  return champions;
 }
