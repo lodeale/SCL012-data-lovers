@@ -9,7 +9,7 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Preámbulo - Ale
 
 'League of Legends' es un juego del género MOBA (multijugador de arena de batalla online) que se estrenó en octubre de 2009. 
 
